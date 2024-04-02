@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
+    "test": "ng test --watch --browsers=ChromeHeadless",
     "serve:ssr:personal-task-manager": "node dist/personal-task-manager/server/server.mjs"
   },
   "private": true,
